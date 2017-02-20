@@ -26,11 +26,14 @@ Service.$hovercardWelcome = ( function() {
         if (language) {
             language = language.toLowerCase();
             switch (language) {
-            case 'zh-cn':
-                return 'zh_cn';
+                case 'zh-cn':
+                    return 'zh_cn';
 
-            case 'en':
-                return 'en_us';
+                case 'en':
+                    return 'en_us';
+
+                case 'am':
+                    return 'am';
             }
         }
         return 'en';

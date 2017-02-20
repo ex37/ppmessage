@@ -12,8 +12,8 @@
 .pp-container u,
 .pp-container textarea,
 .pp-container span {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-    font: normal normal 100% "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Noto Sans Armenian", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font: normal normal 100% "Noto Sans Armenian", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     letter-spacing: normal;
     font-stretch: normal;

@@ -176,6 +176,61 @@
                     yesterday: "Yesterday"
                 });
             }
+        },
+        'am': {
+            START_CONVERSATION_HINT: 'Սեղմեք "Enter" ուղարկելու համար',
+            START_CONVERSATION_MOBILE_HINT: '',
+            ERROR_TEXT_TOO_LONG: 'Տեքստը սահմանվածից երկար է',
+            WELCOME_MSG: 'Բարև՜ Ձեզ, ինչո՞վ կարող եմ օգտակար լինել։',
+            CLOSE_BUTTON_HINT: 'Փակել խոսակցությունը',
+            MINIZE_BUTTON_HINT: 'Թաքցնել',
+            MAXIMUM_UPLOAD_SIZE_HINT: 'Բեռնվող ֆայլի մաքսիմալ թույլատրելի ծավալը ',
+            PPMESSAGE: 'PPMessage',
+            HOVER_CARD_TEXTAREA_HINT: 'Սկսել խոսակցություն',
+            DEFAULT_SERVE_NAME: 'Ծառայություն',
+            UPLOADING_HINT: 'Բեռնվում է',
+            SEND: 'Ուղարկել',
+            WAITING_AVALIABLE_CONVERSATION: 'Waiting service ...',
+            WAITING_LENGTH_HINT: 'Սպասարկման հերթում կա %s հաճախորդ',
+
+            LOAD_HISTORY_HINT: 'Սեղմեք պատմությունը տեսնելու համար',
+            LOAD_HISTORY_MOBILE_HINT: 'Քաշեք պատմությունը տեսնելու համար',
+            LOADING_HISTORY: 'Բեռնվում է...',
+            NO_MORE_HISTORY: 'Չկան հին հաղորդագրություններ',
+
+            // for message summary launcher preview show
+            IMAGE: 'Նկար',
+            FILE: 'Ֆայլ',
+            AUDIO: 'Ձայնային ֆայլ',
+
+            SEND_ERROR: 'Ուղարկել սխալը',
+            SERVICE_NOT_AVALIABLE: 'Ներկա պահին ծառայությունը անհասանելի է',
+            CANCELED: 'Չեղարկված է',
+            SENDING: 'Ուղարկվում է',
+
+            CLOSE: 'Փակել',
+
+            CONSULT_WORKING_TIME: 'Ժամանակը օնլայն',
+            CONTACT_NUMBER: 'Կոնտակտային համար',
+
+            ONLINE: 'Online',
+            OFFLINE: 'Offline',
+
+            SYSTEM_MSG: 'System message',
+
+            TYPING: 'Տպում է...',
+
+            AUDIO_PLAY_ERROR: 'Ձախողվեց նվագել',
+            
+            timeFormat: function(timestampInMilliSeconds) {
+                return Service.$tools.formatTime(timestampInMilliSeconds, {
+                    year: "-",
+                    month: "-",
+                    day: "",
+                    today: "Այսօր",
+                    yesterday: "Երեկ"
+                });
+            }
         }
     };
 

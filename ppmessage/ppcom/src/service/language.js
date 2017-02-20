@@ -29,6 +29,9 @@ Service.$language = ( function() {
         case 'en-us':
             _language = 'en';
             break;
+        case 'am':
+            _language = 'am';
+            break;
 
         default:
             _language = _DEFAULT;

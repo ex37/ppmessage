@@ -413,16 +413,16 @@
     position: absolute;
     bottom: 0;
     right: 0;
-    width: 48px;
-    height: 48px;
+    width: 56px;
+    height: 56px;
     cursor: pointer;
     background-position: center;
     border-color: #004c88;
     box-shadow: 0px 6px 13px 0px rgba(0, 0, 0, 0.23);
 }
 .pp-launcher-button-container {
-    width: 48px;
-    height: 48px;
+    width: 56px;
+    height: 56px;
 }
 .pp-launcher-button-container-inactive {
     transition: opacity,.1s;
@@ -647,6 +647,10 @@
 
 .pp-composer-container-input {
     display: none !important;
+}
+
+#pp-powered-by {
+    display: none;
 }
 
 .pp-container .pp-powered-by {
@@ -1031,7 +1035,7 @@
     margin-right: 52px;
     width: 100%;
     position: relative;
-    margin-top: -60px;
+    margin-top: -68px;
 }
 .pp-launcher-preview-outer-2 {
     padding: 10px;
@@ -1242,8 +1246,8 @@
     box-shadow: 0 0 10px rgba(0,0,0,.08);
     width: 340px;
     position: absolute;
-    bottom: 64px;
-    right: -5px;
+    bottom: 70px;
+    right: -3px;
 }
 
 .pp-launcher-hovercard-welcome {
@@ -1312,7 +1316,7 @@
 .pp-launcher-hovercard-text {
     float: right;
     width: 174px;
-    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: "Noto Sans Armenian", Helvetica Neue,Helvetica,Arial,sans-serif;
     cursor: pointer;
 }
 .pp-container .pp-launcher-hovercard-app-name {
